@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Problem 1">
+      <UniqueIdentifier>{ca619080-702d-42d1-93f6-46f4f99d8a2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Problem 2">
+      <UniqueIdentifier>{ff8ba7d5-ade5-4ae0-b83d-209101029114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Problem 2">
+      <UniqueIdentifier>{8b5591f9-3c7f-497b-9c8a-c52ba3ca09bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Problem 1">
+      <UniqueIdentifier>{bff6fa43-d0a8-4fb8-8b0b-ea13283b6404}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pocheng_Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pocheng_Problem1.cpp">
+      <Filter>Source Files\Problem 1</Filter>
+    </ClCompile>
+    <ClCompile Include="pocheng_Problem2.cpp">
+      <Filter>Source Files\Problem 2</Filter>
+    </ClCompile>
+    <ClCompile Include="pocheng_StudentInfo.cpp">
+      <Filter>Source Files\Problem 1</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pocheng_Problem1.h">
+      <Filter>Header Files\Problem 1</Filter>
+    </ClInclude>
+    <ClInclude Include="pocheng_Problem2.h">
+      <Filter>Header Files\Problem 2</Filter>
+    </ClInclude>
+    <ClInclude Include="pocheng_StudentInfo.h">
+      <Filter>Header Files\Problem 1</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
